@@ -1,4 +1,4 @@
-var surveyData = [{
+var friends = [{
     "name":"Ahmed",
     "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
     "scores":[
@@ -13,7 +13,24 @@ var surveyData = [{
         4,
         1
       ]
-  }
+  },
+  {
+    "name":"Bob",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        1,
+        3,
+        1,
+        5,
+        4,
+        3,
+        1
+      ]
+  },
+
   ];
 
-module.export = surveyData;
+module.exports = friends;
