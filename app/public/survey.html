@@ -4,17 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>FriendFinder</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
-  <script type="text/javascript"
-    src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js'></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
-    media="screen" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+ 
+  <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+ 
 
 </head>
 
@@ -31,126 +26,126 @@
     <h4>Link to Photo Image (Required)</h4>
     <input type="text" id="photo" class="form-control" required>
 
-    <div class="questions input-field col s3 m6">
-      <h6>Question 1</h6>
-      <p>How much do you love dogs?</p>
-      <select class="q1">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (only a little)</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (like a lot)</option>
-      </select>
-  </div>
+            <div class="questions input-field col s3 m6">
+            <h6>Question 1</h6>
+            <p>How important are knowledge and learning to you?</p>
+            <select class="q1">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (Wait, what?)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Most important)</option>
+            </select>
+        </div>
 
-  <div class="questions input-field col s3 m6">
-      <h6>Question 2</h6>
-      <p>How likely are you to flake on plans? </p>
-      <select class="q2">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (very likely) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (i would never) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 3</h6>
-      <p>How quickly do you text back?</p>
-      <select class="q3">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (sometimes days later) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (instantly) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 4</h6>
-      <p>How much do you like wine?</p>
-      <select class="q4">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (hate it) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (love it) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 5</h6>
-      <p>Do you enjoy being outdoors?</p>
-      <select class="q5">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (hate it) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (love it) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 6</h6>
-      <p>How often do you brunch?</p>
-      <select class="q6">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (never been) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (every sunday) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 7</h6>
-      <p>How spontaneous are you?</p>
-      <select class="q7">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (i plan everything) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (i've never made a plan in my life) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 8</h6>
-      <p>Do you watch Grey's Anatomy?</p>
-      <select class="q8">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (what?) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (i live for thursday night at 9 p.m.) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 9</h6>
-      <p>Are you funny?</p>
-      <select class="q9">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (no) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (yes) </option>
-      </select>
-  </div>
-  <div class="questions input-field col s3 m6">
-      <h6>Question 10</h6>
-      <p>Do you hate taking long surveys?</p>
-      <select class="q10">
-          <option value="" disabled selected>Please select</option>
-          <option value="1">1 (no) </option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5 (yes) </option>
-      </select>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 2</h6>
+            <p>Do you love to spend time in nature</p>
+            <select class="q2">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (Eww, gross) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (I might as well live outside) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 3</h6>
+            <p>Do you spend most of your time with animals?</p>
+            <select class="q3">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (I'm more of a people person) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Basically all my time) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 4</h6>
+            <p>How spontaneous are you?</p>
+            <select class="q4">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (I plan everything carefully) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (I don't think, I just do) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 5</h6>
+            <p>How do you feel about water (being on it, in it, or around it)?</p>
+            <select class="q5">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (hate it) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (love it) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 6</h6>
+            <p>Do you like to keep things clean and organized?</p>
+            <select class="q6">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (I'm a hot mess) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (I'm basically OCD) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 7</h6>
+            <p>Do you like pretty, sparkly things?</p>
+            <select class="q7">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (I'm not about that life) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Glitter is my favorite color) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 8</h6>
+            <p>Are you passionate about social/political reform?</p>
+            <select class="q8">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (I prefer not to get involved) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Of course, who isn't?!) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 9</h6>
+            <p>Do you believe hard work is the key to success?</p>
+            <select class="q9">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (Its all up to fate) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Yep, nose to the grindstone) </option>
+            </select>
+        </div>
+        <div class="questions input-field col s3 m6">
+            <h6>Question 10</h6>
+            <p>Do you sometimes feel like you just have bad luck?</p>
+            <select class="q10">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">1 (Nah, the glass is half full) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Yep, maybe I'm cursed) </option>
+            </select>
 
     <br>
     <br>
@@ -168,8 +163,8 @@
 
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
       $('select').formSelect();
@@ -180,7 +175,7 @@
         var newFriend = {
           name: $("#name").val().trim(),
           photo: $("#photo").val().trim(),
-          scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+          scores: [$(".q1").val(), $(".q2").val(), $(".q3").val(), $(".q4").val(), $(".q5").val(), $(".q6").val(), $(".q7").val(), $(".q8").val(), $(".q9").val(), $(".q10").val()]
         };
 
         console.log(newFriend);
@@ -206,7 +201,7 @@
     <div class="modal-content">
       <h4>Your new best friend is...</h4>
       <h5 id="matchName"></h5>
-      <img style="width:300px;height:300px;" id="matchPhoto">
+      <img src="" id="matchPhoto" alt="princess gif">
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
